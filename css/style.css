@@ -1,0 +1,172 @@
+form {
+    background-color: #ffffff;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(220, 144, 255, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  form:hover {
+    box-shadow: 0 10px 25px rgba(220, 144, 255, 0.3);
+  }
+  
+  form input[type="text"],
+  form input[type="url"] {
+    padding: 1rem;
+    border: 2px solid #dab6fc;
+    border-radius: 14px;
+    background: #f9efff;
+    font-size: 1rem;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  form input:focus {
+    border-color: #bb6ef2;
+    outline: none;
+    box-shadow: 0 0 10px #d9aaff;
+  }
+  
+  form button {
+    padding: 1rem;
+    border: none;
+    background-color: #bb6ef2;
+    color: white;
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  form button:hover {
+    background-color: #9f57de;
+    transform: scale(1.05);
+  }
+  #searchbar {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    border: 2px solid #e5c6ff;
+    border-radius: 16px;
+    background: #fff6fd;
+    font-size: 1rem;
+    color: #8a2be2;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(220, 144, 255, 0.1);
+    margin-bottom: 2rem;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #fceaff, #e8f0ff);
+    color: #333;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+    background-attachment: fixed;
+  }
+  
+ 
+  h1 {
+    text-align: center;
+    color: #d86eff;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    text-shadow: 1px 1px 2px #f3caff;
+  }
+  
+  
+  #searchbar {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    border: 2px solid #e5c6ff;
+    border-radius: 16px;
+    background: #fff6fd;
+    font-size: 1rem;
+    color: #8a2be2;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(220, 144, 255, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  #searchbar::placeholder {
+    color: #c389f9;
+    opacity: 0.8;
+    font-style: italic;
+  }
+  
+  #searchbar:focus {
+    border-color: #bb6ef2;
+    outline: none;
+    background: #fff0f8;
+    box-shadow: 0 0 12px rgba(198, 129, 255, 0.4);
+  }
+  
+  /* 🎶 Song List Styling */
+  #my_songlist {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0;
+  }
+  
+  /* 🎧 Individual Song Card */
+  #my_songlist li {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(220, 144, 255, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  #my_songlist li:hover {
+    transform: scale(1.015);
+    box-shadow: 0 10px 25px rgba(220, 144, 255, 0.25);
+  }
+  
+  #my_songlist h4 {
+    margin-bottom: 0.6rem;
+    color: #a855f7;
+    font-size: 1.3rem;
+  }
+  
+  audio {
+    width: 100%;
+    margin-bottom: 0.7rem;
+    border-radius: 12px;
+  }
+  
+ 
+  .like {
+    background-color: #f6a5f4;
+    border: none;
+    border-radius: 12px;
+    padding: 0.6rem 1.1rem;
+    color: white;
+    
+  }
+  
+  
+  #searchbar::placeholder {
+    color: #c389f9;
+    opacity: 0.8;
+    font-style: italic;
+  }
+  
+  #searchbar:focus {
+    border-color: #bb6ef2;
+    outline: none;
+    background: #fff0f8;
+    box-shadow: 0 0 12px rgba(198, 129, 255, 0.4);
+  }
+  
